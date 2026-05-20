@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Smart grievance dashboard theme preview">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111b"/>
+      <stop offset=".55" stop-color="#0f1418"/>
+      <stop offset="1" stop-color="#041012"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#56ddac"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="640" fill="url(#bg)"/>
+  <circle cx="705" cy="122" r="170" fill="#38bdf8" opacity=".08"/>
+  <circle cx="150" cy="560" r="230" fill="#56ddac" opacity=".08"/>
+  <g fill="none" stroke="#8ed5ff" opacity=".16">
+    <path d="M90 130H810M90 230H810M90 330H810M90 430H810M90 530H810"/>
+    <path d="M140 80V570M300 80V570M460 80V570M620 80V570M780 80V570"/>
+  </g>
+  <rect x="70" y="78" width="760" height="484" rx="26" fill="#ffffff" opacity=".045" stroke="#8ed5ff" stroke-opacity=".18"/>
+  <rect x="108" y="116" width="260" height="390" rx="18" fill="#ffffff" opacity=".055" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="402" y="116" width="390" height="168" rx="18" fill="#ffffff" opacity=".055" stroke="#38bdf8" stroke-opacity=".18"/>
+  <rect x="402" y="314" width="390" height="192" rx="18" fill="#ffffff" opacity=".055" stroke="#56ddac" stroke-opacity=".18"/>
+  <g font-family="Inter,Arial" font-weight="700">
+    <text x="130" y="158" fill="#dee3e8" font-size="30">Complaint Intake</text>
+    <text x="430" y="158" fill="#8ed5ff" font-size="26">AI Classification</text>
+    <text x="430" y="356" fill="#56ddac" font-size="26">Department Routing</text>
+  </g>
+  <g>
+    <rect x="130" y="195" width="194" height="14" rx="7" fill="#bdc8d1" opacity=".45"/>
+    <rect x="130" y="234" width="160" height="14" rx="7" fill="#bdc8d1" opacity=".28"/>
+    <rect x="130" y="272" width="212" height="14" rx="7" fill="#bdc8d1" opacity=".34"/>
+    <rect x="130" y="330" width="92" height="38" rx="10" fill="#38bdf8" opacity=".22"/>
+    <rect x="238" y="330" width="88" height="38" rx="10" fill="#56ddac" opacity=".18"/>
+  </g>
+  <g stroke="url(#cyan)" stroke-width="4" fill="none" filter="url(#glow)" opacity=".85">
+    <path d="M368 244C430 244 422 198 486 198"/>
+    <path d="M486 418C408 418 430 306 368 306"/>
+  </g>
+  <g fill="#0f1418" stroke="#38bdf8" stroke-opacity=".8" stroke-width="3">
+    <circle cx="520" cy="202" r="26"/><circle cx="620" cy="202" r="26"/><circle cx="720" cy="202" r="26"/>
+  </g>
+  <g fill="#56ddac">
+    <circle cx="520" cy="202" r="7"/><circle cx="620" cy="202" r="7"/><circle cx="720" cy="202" r="7"/>
+  </g>
+  <g>
+    <rect x="430" y="392" width="98" height="54" rx="14" fill="#38bdf8" opacity=".18"/>
+    <rect x="552" y="392" width="98" height="54" rx="14" fill="#56ddac" opacity=".18"/>
+    <rect x="674" y="392" width="88" height="54" rx="14" fill="#ffc176" opacity=".18"/>
+  </g>
+</svg>

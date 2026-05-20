@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="AQI route generation map with route alternatives">
+  <defs>
+    <linearGradient id="water" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#9ecfd9"/>
+      <stop offset="1" stop-color="#7fb8ca"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#001f2f" flood-opacity=".28"/>
+    </filter>
+    <pattern id="streets" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M0 20H80M0 54H80M18 0V80M52 0V80" fill="none" stroke="#d8d8d8" stroke-width="3"/>
+      <path d="M0 38H80M35 0V80" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="640" fill="#f4f0df"/>
+  <path d="M0 0H900V640H0Z" fill="url(#streets)" opacity=".85"/>
+  <path d="M0 28C120 70 110 152 212 170c100 18 158-36 246-8 128 42 106 176 220 202 90 20 142-42 222-18v294H0Z" fill="url(#water)" opacity=".92"/>
+  <path d="M35 412c74 6 126-14 160 20 36 38 5 82 56 106 46 20 84-22 130-8 50 16 52 64 102 68 68 6 96-74 164-70 52 2 72 48 124 34 36-10 58-40 76-72v150H0V410Z" fill="#a9c56d" opacity=".64"/>
+  <path d="M74 110c68-30 166-16 198 36 34 54-20 100-88 104-88 6-154-46-110-140Z" fill="#f7f4df" stroke="#88b86e" stroke-width="3"/>
+  <text x="86" y="158" fill="#45a24f" font-family="Inter,Arial" font-size="22" font-weight="700">Van Vihar</text>
+  <text x="86" y="185" fill="#45a24f" font-family="Inter,Arial" font-size="20" font-weight="700">National Park</text>
+  <path d="M460 0v640" stroke="#f1c36f" stroke-width="13" opacity=".82"/>
+  <path d="M0 118c210 0 248 48 408 42 162-6 244-70 492-50" stroke="#f0bd62" stroke-width="12" opacity=".78"/>
+  <path d="M586 0c22 138 16 216 72 300 48 72 118 132 142 340" stroke="#e5b35c" stroke-width="10" opacity=".72"/>
+  <g font-family="Inter,Arial" font-size="18" fill="#7d7d6a" opacity=".8">
+    <text x="416" y="90">North Nagar</text>
+    <text x="706" y="118">Arera Hills</text>
+    <text x="610" y="220">Char Imli</text>
+    <text x="456" y="342">Nehru Nagar</text>
+    <text x="536" y="420">Kaliasot Lake</text>
+    <text x="720" y="530">Shirdipuram</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <path d="M482 128C456 190 388 218 326 260c-64 42-60 88-132 120l-92 42 92 94v76l150 34 46-36 66 32 106-42 90 10 72-46" stroke="#19834e" stroke-width="15"/>
+    <path d="M506 126c4 76 12 126 62 174 70 66 154 70 154 170v78" stroke="#3769c9" stroke-width="12"/>
+    <path d="M500 126c-18 102-22 192-12 282 10 86 54 116 142 134" stroke="#757a7d" stroke-width="9" opacity=".9"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M500 82c-30 0-54 24-54 54 0 48 54 96 54 96s54-48 54-96c0-30-24-54-54-54Z" fill="#2f8fd1"/>
+    <circle cx="500" cy="136" r="20" fill="#dff5ff"/>
+    <path d="M724 476c-30 0-54 24-54 54 0 48 54 96 54 96s54-48 54-96c0-30-24-54-54-54Z" fill="#2f8fd1"/>
+    <circle cx="724" cy="530" r="20" fill="#dff5ff"/>
+  </g>
+</svg>

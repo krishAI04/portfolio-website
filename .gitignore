@@ -1,0 +1,12 @@
+node_modules/
+dist/
+venv/
+.edge-debug/
+
+.env
+.env.*
+*.local
+
+.DS_Store
+dev-server.log
+dev-server.err.log
